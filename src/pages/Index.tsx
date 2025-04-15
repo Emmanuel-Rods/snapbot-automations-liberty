@@ -6,7 +6,6 @@ import Features from '@/components/Features';
 import HowItWorks from '@/components/HowItWorks';
 import UseCases from '@/components/UseCases';
 import Testimonials from '@/components/Testimonials';
-import Pricing from '@/components/Pricing';
 import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
 
@@ -20,7 +19,6 @@ const Index: React.FC = () => {
         <HowItWorks />
         <UseCases />
         <Testimonials />
-        <Pricing />
         <FAQ />
       </main>
       <Footer />

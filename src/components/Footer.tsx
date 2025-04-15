@@ -9,14 +9,17 @@ const Footer: React.FC = () => {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to automate your Snapchat presence?</h2>
-              <p className="text-lg text-gray-300 mb-8">Get started with SnapBot today and focus on what matters: creating engaging content and building relationships.</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">Exclusive Snapchat Automation</h2>
+              <p className="text-lg text-gray-300 mb-8">Join our invite-only platform designed for innovative influencers and forward-thinking businesses.</p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="bg-primary text-secondary hover:bg-primary/90 font-medium">
-                  Get Started
+                <Button className="bg-primary text-secondary hover:bg-primary/90 font-medium group relative overflow-hidden">
+                  <span className="z-10 relative flex items-center">
+                    Request Beta Access
+                    <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                  </span>
                 </Button>
                 <Button variant="outline" className="text-white border-white hover:bg-white/10">
-                  Contact Sales
+                  Join Waitlist
                 </Button>
               </div>
             </div>

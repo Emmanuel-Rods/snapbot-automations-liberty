@@ -13,12 +13,14 @@ const Hero: React.FC = () => {
               Automate <span className="gradient-text">Snapchat</span> with Browser-Level Control
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8">
-              SnapBot is a powerful Puppeteer-based library that lets you create Snapchat bots without reverse engineering any APIs.
+              Invite-only automation platform for influencers and businesses. Powerful Puppeteer-based library that transforms Snapchat workflow.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button className="btn btn-primary text-black font-medium text-lg">
-                Get Started
-                <ArrowRight className="ml-2 h-5 w-5" />
+              <Button className="btn btn-primary text-black font-medium text-lg group relative overflow-hidden">
+                <span className="z-10 relative flex items-center">
+                  Request Invite
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </span>
               </Button>
               <Button variant="outline" className="btn btn-outline">
                 View Docs
