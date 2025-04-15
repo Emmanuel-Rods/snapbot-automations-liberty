@@ -45,36 +45,6 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-
-    --primary: 56 100% 50%;
-    --primary-foreground: 240 5.9% 10%;
-
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 56 100% 50%;
-  }
 }
 
 @layer base {
@@ -89,7 +59,7 @@
 }
 
 .code-block {
-  @apply bg-secondary text-white dark:bg-gray-900 dark:text-gray-100 p-4 rounded-lg overflow-x-auto font-mono text-sm;
+  @apply bg-secondary text-white p-4 rounded-lg overflow-x-auto font-mono text-sm;
 }
 
 .gradient-text {
@@ -98,7 +68,7 @@
 }
 
 .feature-card {
-  @apply p-6 rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1 bg-white dark:bg-secondary-400/10 border border-gray-100 dark:border-gray-700;
+  @apply p-6 rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1 bg-white border border-gray-100;
 }
 
 .section {
@@ -122,7 +92,7 @@
 }
 
 .btn-outline {
-  @apply border-2 border-gray-200 dark:border-gray-700 hover:border-primary hover:text-primary;
+  @apply border-2 border-gray-200 hover:border-primary hover:text-primary;
 }
 
 .animate-float {
